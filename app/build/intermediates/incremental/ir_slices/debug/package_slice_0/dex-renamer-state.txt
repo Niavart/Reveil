@@ -1,0 +1,4 @@
+#Fri Jun 28 05:10:06 CEST 2019
+base.0=R\:\\Projets\\Reveil_P\\Reveil\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

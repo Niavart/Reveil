@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nya.niavart.reveil.SettingsActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ringtonepicker"
+        android:text="Select Ringtone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/CodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="35dp"
+        android:text="Sync" />
+
+    <EditText
+        android:id="@+id/CodeInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/CodeButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="14dp"
+        android:layout_toStartOf="@+id/CodeButton"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/DelayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="70dp"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/delayInput"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/CodeButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/DelayButton"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="1200000" />
+
+    <Button
+        android:id="@+id/CreateCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="53dp"
+        android:text="Create Code" />
+
+
+</RelativeLayout>
